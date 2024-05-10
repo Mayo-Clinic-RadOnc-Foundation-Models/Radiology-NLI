@@ -1,9 +1,9 @@
-# DT/MARS-CycleGAN
+# RadQNLI
 The repository is for the paper: [Exploring the Trade-Offs: Unified Large Language Models vs Local Fine-Tuned Models for Highly-Specific Radiology NLI Task]([https://arxiv.org/abs/2310.12787](https://arxiv.org/abs/2304.09138)), including the code and dataset for reproducing. 
 
 The paper is under revision on IEEE-TBD.
 
-## Pipeline of DT/MARS-CycleGAN
+## Pipeline of RadQNLI
 <img src="figures/fig1.png"/>
 Fig. 1: Overview of our workflow. (a) Top panel: Conversion of RadQA dataset to RadQNLI dataset. The highlighted sentence in the context contains the answer to the question. (b) Bottom panel: Utilization of ChatGPT to perform the Natural Language Inference (NLI) task on the generated RadQNLI dataset.
 
