@@ -4,7 +4,7 @@ The repository is for the paper: [Exploring the Trade-Offs: Unified Large Langua
 The paper is under revision on IEEE-TBD.
 
 ## Pipeline of RadQNLI
-<img src="figs/main.pdf"/>
+<img src="figs/main.png"/>
 Fig. 1: Overview of our workflow. (a) Top panel: Conversion of RadQA dataset to RadQNLI dataset. The highlighted sentence in the context contains the answer to the question. (b) Bottom panel: Utilization of ChatGPT to perform the Natural Language Inference (NLI) task on the generated RadQNLI dataset.
 
 
