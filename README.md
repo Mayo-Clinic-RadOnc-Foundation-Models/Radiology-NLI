@@ -17,20 +17,20 @@ Fig. 1: Overview of our workflow. (a) Top panel: Conversion of RadQA dataset to 
 
 
 ## Getting Started
-See [GANs](GAN/GAN)
+See [notebooks](notebooks/)
 
 
 ## Dataset Download
-The dataset has been released on [Kaggle](https://www.kaggle.com/datasets/zhengkunli3969/dtmars-cyclegan). Also, you can download on [Google Drive](https://drive.google.com/drive/folders/12pb47Zl1j285z5AXG8F77oASkfYqSbA0?usp=sharing).
+See [data](data/). Also, you can download on [Google Drive](https://drive.google.com/drive/folders/1ffmw49aUn1Ie2h7SV3yKeMzU_yM1McNN?usp=sharing).
 
 
 
-## Models' Responds
-The models' responds are available at [weight](weight).  
-    - best.pt: trained with images generated from DT/MARs-CycleGAN (ours).  
-    - CYC.pt: trained with  images generated from original CycleGAN.  
-    - RetinaGAN.pt: trained with images generated from RetinaGAN.  
-    - pure_sim.pt: trained with images generated from Publlet.  
+## Models' Responses
+The models' responses are available at [results](results/).  
+    - 0e: zero-shot.  
+    - 0ecot: zero-shot with CoT.
+    - 10e: few-shot (10 shots).
+    - 10ecot: few-shot (10 shots) with CoT.
 
 ## References
 If you find this work or code useful, please cite:
