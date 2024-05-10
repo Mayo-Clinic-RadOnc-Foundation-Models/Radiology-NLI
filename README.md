@@ -1,5 +1,5 @@
 # RadQNLI
-The repository is for the paper: [Exploring the Trade-Offs: Unified Large Language Models vs Local Fine-Tuned Models for Highly-Specific Radiology NLI Task]([https://arxiv.org/abs/2310.12787](https://arxiv.org/abs/2304.09138)), including the code and dataset for reproducing. 
+The repository is for the paper: [Exploring the Trade-Offs: Unified Large Language Models vs Local Fine-Tuned Models for Highly-Specific Radiology NLI Task](https://arxiv.org/abs/2304.09138), including the code and dataset for reproducing. 
 
 The paper is under revision on IEEE-TBD.
 
