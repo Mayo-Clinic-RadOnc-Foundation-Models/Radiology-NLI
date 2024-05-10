@@ -21,16 +21,17 @@ See [notebooks](notebooks/)
 
 
 ## Dataset Download
-See [data](data/). Also, you can download on [Google Drive](https://drive.google.com/drive/folders/1ffmw49aUn1Ie2h7SV3yKeMzU_yM1McNN?usp=sharing).
+See [data](data/). Also, you can download on [Google Drive](https://drive.google.com/drive/folders/1ffmw49aUn1Ie2h7SV3yKeMzU_yM1McNN?usp=sharing).  
+[rouge_02](data/rouge_02/) has been filtered to exclude pairs with low lexical overlap between the question and context sentence, using a ROUGE threshold of 0.2.
 
 
 
 ## Models' Responses
 The models' responses are available at [results](results/).  
     - 0e: zero-shot.  
-    - 0ecot: zero-shot with CoT.
-    - 10e: few-shot (10 shots).
-    - 10ecot: few-shot (10 shots) with CoT.
+    - 0ecot: zero-shot with CoT.  
+    - 10e: few-shot (10 shots).  
+    - 10ecot: few-shot (10 shots) with CoT.  
 
 ## References
 If you find this work or code useful, please cite:
